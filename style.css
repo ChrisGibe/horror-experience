@@ -94,3 +94,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+#canvas {
+  display: flex;
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
