@@ -8,7 +8,7 @@ export const initRive = () => {
   });
 
   const r = new rive.Rive({
-    src: "./assets/halloween.riv",
+    src: "./assets/halloween-exp.riv",
     // OR the path to a discoverable and public Rive asset
     // src: '/public/example.riv',
     canvas: document.getElementById("canvas"),
