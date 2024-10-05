@@ -20,6 +20,7 @@ export const initRive = () => {
         },
     });
 
+    
     // Update the layout
     r.layout = new rive.Layout({ fit: rive.Fit.Fill });
 }
