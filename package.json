@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "sass": "^1.79.4",
     "vite": "^5.4.1"
   },
   "dependencies": {
-    "@rive-app/canvas": "^2.21.5"
+    "@rive-app/canvas": "^2.21.5",
+    "gsap": "^3.12.5"
   }
 }
