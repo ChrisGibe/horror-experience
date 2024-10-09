@@ -8,13 +8,15 @@
   </head>
   <body>
     <canvas id="canvas"></canvas>
-    <div class="navigation-buttons">
-      <button type="button" id="start" disabled>Begin the game</button>
-      <button type="button" id="conference-room" disabled>Go to the conference room</button>
-      <button type="button" id="terrace" disabled>Go to terrace</button>
-      <button type="button" id="back-to-lobby-from-cr" disabled>Back to lobby from conference room</button>
-      <button type="button" id="back-to-lobby-from-terrace" disabled>Back to lobby from terrace</button>
+    <div class="opening">
+      <div class="content">
+        <h1>Horror experience</h1>
+        <button type="button" class="launcher">Start</button>
+      </div>
     </div>
+
+    <audio id="ambient-sound" src="./shadows-in-the-dark.mp3" type="audio/mp3" loop></audio>
+    <audio id="narration-sound" src="./narration.mp3" type="audio/mp3"></audio>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
