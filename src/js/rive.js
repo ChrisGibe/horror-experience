@@ -11,20 +11,22 @@ export const initRive = () => {
   });
 
   const experience = new rive.Rive({
-    src: "./halloween.riv",
+    src: "./experience.riv",
     canvas: document.getElementById("canvas"),
     autoplay: true,
-    stateMachines: "Game management",
+    stateMachines: "game",
     onLoad: () => {
       experience.resizeDrawingSurfaceToCanvas();
+      
+      const inputs = experience.stateMachineInputs("game");
 
-      const inputs = experience.stateMachineInputs("Game management");
-    
+        
       // Start the game
       const launcher = document.querySelector('.launcher')
       launcher.addEventListener('click', () => {
           gsap.to('.opening', { alpha: 0, zIndex: -1, duration: 2})
-          experience?.setBooleanStateAtPath('game_begin', true, 'opening')
+          experience?.setBooleanStateAtPath('start_first_scene', true, 'First scene')
+          inputs[0].value = true
           const music = document.getElementById('ambient-sound')
           const narration = document.getElementById('narration-sound')
           music.volume = 0.40
