@@ -33,8 +33,12 @@ export const initRive = () => {
           music.play()
 
           setTimeout(() => {
+            experience?.setBooleanStateAtPath('start_second_scene', true, 'Second scene bis')
+          }, 8000)
+
+          setTimeout(() => {
             narration.play()
-          }, 4000)
+          }, 500)
       })
     },
   });
