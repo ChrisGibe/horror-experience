@@ -27,7 +27,7 @@ See the case study on Medium [here](https://medium.com/@PaulineStich/case-study-
 - [ChatGPT](https://chat.openai.com/) For the story
 - [ElevenLabs](https://elevenlabs.io/) For the narration
 - [Midjourney](https://midjourney.com/) For the assets
-- [Suno](https://suno.ai/) For the AI voice
+- [Suno](https://suno.ai/) For the AI music
 
 [See it live](https://horror-experience.netlify.app/)
 
